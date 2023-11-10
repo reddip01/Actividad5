@@ -1,0 +1,98 @@
+*{
+    margin:0px;
+    padding: 0px;
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    width: 95%;
+    margin: 0px auto;
+    border: 1px solid black;
+    background-image: url(/images/fondo_negro.jpg);
+}
+
+header{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black; 
+    line-height: 80px;
+    background-color: #e2d397;
+    background-color: #e2d397;
+    border-radius: 10px;
+}
+nav{
+    height: 30px;
+    border-bottom: 1px solid black;
+    background-image: url(/images/Menu.png);
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+nav a{
+    color: black;
+    font-weight: bold;
+    
+}
+nav ul li{
+    float:left;
+    list-style: none;
+    line-height: 30px;
+    margin-left: 200px;
+    
+
+}
+
+.clearfix{
+    clear:both;
+}
+
+#content{
+    float: left; 
+    width: calc(100% - 20px);
+    min-height: 800px;
+    background-color: #e2d397;
+    border-radius: 10px;
+    padding: 10px 10px;
+    border: 1px solid black;  
+    
+ }
+
+
+footer{
+   text-align: center;
+   height: 30px;
+   line-height: 30px;
+   border-radius: 10px;
+   padding: 10px 10px;
+   border: 1px solid black; 
+   background-color: #e2d397;
+}
+
+
+.article h2{
+    text-align: center;
+}
+
+table tbody tr td{
+    padding: 10px 10px;
+    border: 1px solid black;
+    border-radius: 40px;
+    justify-items: center;
+    text-align: center;
+}
+
+.description{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+table tbody tr td img{
+  width: 250px;
+  height: 250px;
+  border-radius: 15px;
+}
+

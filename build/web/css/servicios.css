@@ -1,0 +1,128 @@
+*{
+    margin:0px;
+    padding: 0px;
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    width: 95%;
+    margin: 0px auto;
+    border: 1px solid black;
+    background-image: url(/images/fondo_negro.jpg);
+}
+
+header{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid black; 
+    line-height: 80px;
+    background-color: #e2d397;
+    background-color: #e2d397;
+    border-radius: 10px;
+}
+nav{
+    height: 30px;
+    border-bottom: 1px solid black;
+    background-image: url(/images/Menu.png);
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+nav a{
+    color: black;
+    font-weight: bold;
+    
+}
+nav ul li{
+    float:left;
+    list-style: none;
+    line-height: 30px;
+    margin-left: 200px;
+    
+
+}
+
+.clearfix{
+    clear:both;
+}
+
+#content{
+    float: left; 
+    width: calc(100% - 20px);
+    min-height: 800px;
+    background-color: #e2d397;
+    border-radius: 10px;
+    padding: 10px 10px;
+    border: 1px solid black; 
+    
+ }
+
+
+footer{
+   text-align: center;
+   height: 30px;
+   line-height: 30px;
+   border-radius: 10px;
+   padding: 10px 10px;
+   border: 1px solid black; 
+   background-color: #e2d397;
+}
+
+.nservicios h2{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-radius: 10px;
+    font-size:35px 
+}
+
+.nservicios p{
+padding: 0px;
+text-align: center;
+text-shadow: white 1px 0 10px;
+font-size: 18px;
+}
+
+.Garantias h2{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    border-radius: 10px;
+    font-size:35px 
+}
+.Garantias p{
+    padding: 0px;
+    text-align: center;
+    text-shadow: white 1px 0 10px;
+    font-size: 18px;
+    }
+
+#servi img{
+        width: 150px;
+        height: 150px;
+        border-radius: 75px;
+        border: 1px solid white;
+    }
+
+.tabla1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 15px;
+}
+
+.tabla1 td{
+    padding-left: 40px;
+}
